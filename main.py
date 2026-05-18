@@ -1,8 +1,3 @@
-"""
-AprendeTeq - Plataforma educativa para la comunidad de Tequixquiac
-Desarrollada con Kivy 2.3 y KivyMD 1.2
-"""
-
 import os
 os.environ["KIVY_NO_ENV_CONFIG"] = "1"
 
