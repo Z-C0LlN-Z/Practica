@@ -1,0 +1,1 @@
+los archivos llamados: db_manager y __init__ van en una carpeta llamada database
