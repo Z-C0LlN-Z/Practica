@@ -1,0 +1,1 @@
+from .db_manager import inicializar_db
