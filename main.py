@@ -24,14 +24,22 @@ from database.db_manager import (
 
 Window.size = (390, 844)
 
-# ─── PALETA ───────────────────────────────────────────────────
-BG_DARK        = "#0A0A0A"
-BG_SURFACE     = "#131313"
-ACCENT_TEAL    = "#00BFA5"
-ACCENT_AMBER   = "#FFB300"
-TEXT_PRIMARY   = "#F5F5F5"
-TEXT_SECONDARY = "#9E9E9E"
-COLORES = [ACCENT_TEAL, "#7C4DFF", ACCENT_AMBER, "#00ACC1", "#E91E63", "#43A047"]
+# ─── NUEVA PALETA MODERNA ────────────────────────────────────
+BG_DARK        = "#1E1E2F"      # Fondo principal azul oscuro
+BG_SURFACE     = "#2A2A40"      # Tarjetas
+ACCENT_TEAL    = "#6C63FF"      # Morado principal
+ACCENT_AMBER   = "#FF6B6B"      # Rojo coral
+TEXT_PRIMARY   = "#FFFFFF"      # Texto blanco
+TEXT_SECONDARY = "#C7C7D1"      # Texto gris claro
+
+COLORES = [
+    ACCENT_TEAL,
+    "#FF6B6B",
+    "#4ECDC4",
+    "#FFD166",
+    "#F72585",
+    "#72EFDD"
+]
 
 def _hex_to_rgba(h):
     h = h.lstrip('#')
