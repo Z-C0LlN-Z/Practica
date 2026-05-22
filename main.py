@@ -5,6 +5,7 @@ Ejecutar:  python main.py
 from kivymd.app import MDApp
 from kivy.lang import Builder
 from kivy.core.window import Window
+from kivy.core.text import LabelBase
 from kivy.uix.screenmanager import ScreenManager, Screen, FadeTransition
 from kivy.uix.boxlayout import BoxLayout
 from kivymd.uix.card import MDCard
@@ -23,6 +24,11 @@ from database.db_manager import (
 )
 
 Window.size = (390, 844)
+# ─── FUENTE PERSONALIZADA ────────────────────────────────────
+LabelBase.register(
+    name="Poppins",
+    fn_regular="fonts/Poppins-Regular.ttf"
+)
 
 # ─── NUEVA PALETA MODERNA ────────────────────────────────────
 BG_DARK        = "#1E1E2F"      # Fondo principal azul oscuro
