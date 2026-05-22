@@ -31,20 +31,20 @@ LabelBase.register(
 )
 
 # ─── NUEVA PALETA MODERNA ────────────────────────────────────
-BG_DARK        = "#1E1E2F"      # Fondo principal azul oscuro
-BG_SURFACE     = "#2A2A40"      # Tarjetas
-ACCENT_TEAL    = "#6C63FF"      # Morado principal
-ACCENT_AMBER   = "#FF6B6B"      # Rojo coral
+BG_DARK        = "#121826"
+BG_SURFACE     = "#1F2937"
+ACCENT_TEAL    = "#8B5CF6"
+ACCENT_AMBER   = "#F472B6"
 TEXT_PRIMARY   = "#FFFFFF"      # Texto blanco
 TEXT_SECONDARY = "#C7C7D1"      # Texto gris claro
 
 COLORES = [
-    ACCENT_TEAL,
-    "#FF6B6B",
-    "#4ECDC4",
-    "#FFD166",
-    "#F72585",
-    "#72EFDD"
+    "#8B5CF6",
+    "#EC4899",
+    "#06B6D4",
+    "#10B981",
+    "#F59E0B",
+    "#F43F5E"
 ]
 
 def _hex_to_rgba(h):
@@ -193,7 +193,7 @@ KV = f"""
     padding: [16,12]
     spacing: 8
     md_bg_color: {C['surf']}
-    radius: [12,12,12,12]
+    radius: [24,24,24,24]
     elevation: 0
     BoxLayout:
         orientation: "horizontal"
